@@ -4,7 +4,7 @@
 
 **GITHUB:** [eslint-config-kontentino-react](https://github.com/kontentino/eslint-config-kontentino-react)
 
-Eslint config plugin for applications using ReacrtJS syntax
+Eslint config plugin for applications using ReactJS syntax
 
 ## Installation
 `$ npm install --save-dev eslint-config-kontentino-react`
