@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-kontentino-react",
+  "version": "1.0.0",
+  "description": "Eslint config plugin for React applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "kontentino",
+    "react",
+    "reactjs",
+    "javascript",
+    "linter",
+    "config",
+    "eslint-config-kontentino-react"
+  ],
+  "author": "Kontentino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kontentino/eslint-config-kontentino-react.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-react": "7.14.3"
+  }
+}
