@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-kontentino-react",
   "version": "1.0.0",
-  "description": "Eslint config plugin for React applications",
+  "description": "Eslint config plugin for applications using ReacrtJS syntax",
   "main": "index.js",
   "scripts": {
     "test": "jest"

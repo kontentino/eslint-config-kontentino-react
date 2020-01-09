@@ -4,7 +4,7 @@
 
 **GITHUB:** [eslint-config-kontentino-react](https://github.com/kontentino/eslint-config-kontentino-react)
 
-Javascript package for merge arguments of component style classnames or merge another arguments.
+Eslint config plugin for applications using ReacrtJS syntax
 
 ## Installation
 `$ npm install --save-dev eslint-config-kontentino-react`
