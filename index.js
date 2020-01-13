@@ -80,6 +80,7 @@ module.exports = {
         "react/button-has-type": ["error"],
         "react/default-props-match-prop-types": ["error"],
         "react/jsx-no-duplicate-props": "error",
+        "react/jsx-props-no-multi-spaces": "warn",
         "react/jsx-wrap-multilines": [
             "warn",
             {
