@@ -7,7 +7,7 @@
 Eslint config plugin for applications using ReactJS syntax
 
 ## Installation
-`$ npm install --save-dev eslint-config-kontentino-react`
+`$ npm install eslint eslint-plugin-react babel-eslint eslint-config-kontentino-react —save-dev`
 
 ## Usage
 To your `.eslintrc` file you have to add:
