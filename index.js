@@ -23,7 +23,6 @@ module.exports = {
         'semi-style': 'warn',
         'operator-linebreak': 'warn',
         'no-multiple-empty-lines': ['warn', { 'max': 1, 'maxEOF': 0, 'maxBOF': 0 }],
-        'getter-return': 'warn',
         'no-constant-condition': 'warn',
         'no-dupe-keys': 'warn',
         'no-duplicate-case': 'warn',
@@ -53,7 +52,6 @@ module.exports = {
         'prefer-const': 'warn',
         'prefer-rest-params': 'warn',
         'template-curly-spacing': 'warn',
-        'yield-star-spacing': 'warn',
         'block-spacing': 'warn',
         'camelcase': 'warn',
         'space-infix-ops': 'warn',
@@ -67,11 +65,38 @@ module.exports = {
             ignoreUrls: true,
             ignoreTemplateLiterals: true,
         }],
+        "newline-before-return": "warn",
+        "lines-between-class-members": ["error", "always"],
         'no-duplicate-imports': 'warn',
         'no-useless-rename': 'warn',
         'prefer-destructuring': 'warn',
         'prefer-numeric-literals': 'warn',
         'no-mixed-spaces-and-tabs': 'warn',
-        "react/boolean-prop-naming": ["warn", { "rule": "^(is|has|can|should)[A-Z]([A-Za-z0-9]?)+" }]
+        "react/boolean-prop-naming": ["warn", {
+            "rule": "^(is|has|can|should)[A-Z]([A-Za-z0-9]?)+",
+            "message": "Prop ({{ propName }}) should start with 'is', 'has', 'can' or 'should'. Example: 'isValidated' or 'hasPromoCode'."
+        }],
+        "react/prop-types": ["warn"],
+        "react/button-has-type": ["error"],
+        "react/default-props-match-prop-types": ["error"],
+        "react/jsx-no-duplicate-props": "error",
+        "react/jsx-wrap-multilines": [
+            "warn",
+            {
+                "declaration": "parens-new-line",
+                "assignment": "parens-new-line",
+                "return": "parens-new-line",
+                "arrow": "parens-new-line",
+                "condition": "parens-new-line",
+                "logical": "parens-new-line",
+                "prop": "ignore"
+            }
+        ],
+        "react/jsx-tag-spacing": [
+            "warn",
+            {
+                "beforeSelfClosing": "always"
+            }   
+        ],
   }
 };
