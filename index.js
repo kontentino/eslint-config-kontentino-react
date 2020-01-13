@@ -1,11 +1,4 @@
 module.exports = {
-    globals: {
-        MyGlobal: true
-    },
-    "parser": "babel-eslint",
-    'plugins': [
-        'react',
-    ],
     'rules': {
         'semi': [1, 'always'],
         'indent': [1, 4, { "SwitchCase": 1 }],
@@ -78,7 +71,9 @@ module.exports = {
         }],
         "react/prop-types": ["warn"],
         "react/button-has-type": ["error"],
-        "react/default-props-match-prop-types": ["error"],
+        "react/default-props-match-prop-types": [
+            "error"
+        ],
         "react/jsx-no-duplicate-props": "error",
         "react/jsx-props-no-multi-spaces": "warn",
         "react/jsx-wrap-multilines": [
