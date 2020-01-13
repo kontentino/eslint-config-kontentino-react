@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kontentino-react",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Eslint config plugin for applications using ReactJS syntax",
   "main": "index.js",
   "scripts": {
