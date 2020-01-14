@@ -1,4 +1,7 @@
 module.exports = {
+    globals: {
+        MyGlobal: true
+    },
     'rules': {
         'semi': [1, 'always'],
         'indent': [1, 4, { "SwitchCase": 1 }],
