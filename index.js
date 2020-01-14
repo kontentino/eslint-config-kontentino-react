@@ -78,7 +78,10 @@ module.exports = {
         }],
         "react/prop-types": ["warn"],
         "react/button-has-type": ["error"],
-        "react/default-props-match-prop-types": [
+        "react/require-default-props": [
+            "error"
+        ],
+          "react/default-props-match-prop-types": [
             "error"
         ],
         "react/jsx-no-duplicate-props": "error",
