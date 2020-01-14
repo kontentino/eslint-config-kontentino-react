@@ -2,6 +2,10 @@ module.exports = {
     globals: {
         MyGlobal: true
     },
+    "parser": "babel-eslint",
+    'plugins': [
+        'react',
+    ],
     'rules': {
         'semi': [1, 'always'],
         'indent': [1, 4, { "SwitchCase": 1 }],
