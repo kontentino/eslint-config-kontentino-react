@@ -13,7 +13,7 @@ module.exports = {
         'no-var': 'warn',
         'prefer-template': 'warn',
         'eqeqeq': 'warn',
-        'jsx-quotes': ["warn", "single", { "allowTemplateLiterals": true }],
+        'quotes': ["warn", "single", {"allowTemplateLiterals": true}],
         'no-undefined': 'warn',
         'object-curly-spacing': 'warn',
         'array-bracket-spacing': 'warn',
