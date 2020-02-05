@@ -14,6 +14,7 @@ module.exports = {
         'prefer-template': 'warn',
         'eqeqeq': 'warn',
         'quotes': ["warn", "single", {"allowTemplateLiterals": true}],
+        'jsx-quotes': ["warn", "prefer-single"],
         'no-undefined': 'warn',
         'object-curly-spacing': 'warn',
         'array-bracket-spacing': 'warn',
