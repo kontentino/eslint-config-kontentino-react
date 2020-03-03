@@ -2,7 +2,7 @@
 
 # eslint-config-kontentino-react by [Kontentino](https://www.kontentino.com/)
 
-**GITHUB:** [eslint-config-kontentino-react](https://github.com/kontentino/eslint-config-kontentino-react)
+[![npm](https://img.shields.io/npm/v/eslint-config-kontentino-react?style=plastic)](https://www.npmjs.com/package/eslint-config-kontentino-react)
 
 Eslint config plugin for applications using ReactJS syntax
 
