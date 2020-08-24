@@ -30,6 +30,7 @@ module.exports = {
         'no-duplicate-case': 'warn',
         'no-empty': 'warn',
         'no-ex-assign': 'warn',
+        "no-param-reassign": ['warn', {"props": true}],
         'comma-dangle': [
             'warn',
             {
